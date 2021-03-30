@@ -33,5 +33,3 @@ Route::post('/update/{id}' , 'SiswaController@update')->name('update');
 Route::get('/delete/{id}' , 'SiswaController@destroy')->name('delete');
 
 Route::get('/laporansiswa/{id}' , 'LaporansiswaController@index')->name('laporansiswa');
-
-
