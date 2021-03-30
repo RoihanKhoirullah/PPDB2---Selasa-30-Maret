@@ -24,6 +24,9 @@ Route::get('/siswa', function () {
 Route::get('/laporansiswa', function () {
     return view('laporansiswa.index');
 });
+Route::get('/login', function () {
+    return view('pengguna.login');
+});
 
 // DataSiswa
 Route::get('/admin/siswa' , 'SiswaController@index')->name('siswa');
